@@ -109,7 +109,7 @@ nav h1 {
 }
 
 
-.locationButton {
+.locationButton, button{
     background-color: #DCD7C9;
     padding: 1rem;
     border: none;
@@ -278,11 +278,14 @@ textarea {
 .conatactInfo a {
     margin-top: 1rem;
     text-decoration: none;
-    color: black;
     font-family: "Roboto", sans-serif;
 
 }
 
 .conatactInfo a:hover {
     text-decoration: underline;
+}
+
+button{
+
 }
