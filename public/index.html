@@ -25,7 +25,21 @@
             <a href="#location">Find us</a>
             <a href="#contact">Contact</a>
         </div>
+        <img id="burgerMenu" src="./images/burgerMenu.svg" alt="">
+
+        <div id="mobileNav">
+            <a href="https://www.instagram.com/espresso_self_tucson/?hl=en" target="_blank">
+                <img src="./images/instagram-svgrepo-com.svg" alt="image missing">
+            </a>
+            <a class="mobileAnchor" href="#heroSection">Home</a>
+            <a class="mobileAnchor" href="#ourStory">Our Story</a>
+            <a class="mobileAnchor" href="#menu">Menu</a>
+            <a class="mobileAnchor" href="#location">Find us</a>
+            <a class="mobileAnchor" href="#contact">Contact</a>
+        </div>
     </nav>
+
+
     <section id="heroSection">
 
         <div class="hero">
@@ -33,43 +47,52 @@
                 <h1>Espresso-Self</h1>
                 <h1>Tucson</h1>
                 <p>Good Vibes. Great Coffee. Local Love.</p>
-                <a class="locationButton" href="#location">Our Location</a>
+                <div>
+                    <a class="locationButton" href="#location">Our Location</a>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="ourStory">
-        <div class="photos">
-            <img src="images/coffeCart.png" alt="">
-            <img src="images/baristas.png" alt="">
-        </div>
+        <h2>Our Journey: Coffee on the Go</h2>
+        <div class="storyContainer">
 
-        <div class="story">
-            <h2>Our Journey: Coffee on the Go</h2>
-            <p class="greyText">Hi! We're Ramces and Yadel, proud Tucson locals and the husband-and-wife team behind
-                Espresso Self Tucson
-                — a mobile coffee cart serving up espresso-based drinks with a side of genuine community love.
-            </p>
+            <div class="photos">
+                <img src="images/coffeCart.png" alt="">
+                <img src="images/baristas.png" alt="">
+            </div>
 
-            <p class="greyText">Our journey began in 2022 with a simple idea and a lot of heart. Encouraged by family
-                and friends, we
-                decided to take a leap and launch our coffee cart business in 2023. With a set budget and big dreams, we
-                found an old horse trailer on Craigslist — and with countless hours of hard work (and a special
-                thank-you to Ramces and his dad for handling all the labor!), Espresso Self Tucson came to life.</p>
+            <div class="story">
+                <p class="greyText">Hi! We're Ramces and Yadel, proud Tucson locals and the husband-and-wife team behind
+                    Espresso Self Tucson
+                    — a mobile coffee cart serving up espresso-based drinks with a side of genuine community love.
+                </p>
 
-            <p class="greyText">Our passion is brewing the perfect cup and creating a moment of calm in your busy day.
-                Whether you're an
-                overwhelmed mom needing a comforting latte and a friendly chat, or simply looking for a delicious
-                pick-me-up, we're here to serve you with a smile and a warm conversation.</p>
+                <p class="greyText">Our journey began in 2022 with a simple idea and a lot of heart. Encouraged by
+                    family
+                    and friends, we
+                    decided to take a leap and launch our coffee cart business in 2023. With a set budget and big
+                    dreams, we
+                    found an old horse trailer on Craigslist — and with countless hours of hard work (and a special
+                    thank-you to Ramces and his dad for handling all the labor!), Espresso Self Tucson came to life.</p>
 
-            <p class="greyText">Our passion is brewing the perfect cup and creating a moment of calm in your busy day.
-                Whether you're an
-                overwhelmed mom needing a comforting latte and a friendly chat, or simply looking for a delicious
-                pick-me-up, we're here to serve you with a smile and a warm conversation.</p>
+                <p class="greyText">Our passion is brewing the perfect cup and creating a moment of calm in your busy
+                    day.
+                    Whether you're an
+                    overwhelmed mom needing a comforting latte and a friendly chat, or simply looking for a delicious
+                    pick-me-up, we're here to serve you with a smile and a warm conversation.</p>
 
-            <p class="greyText">We love connecting with our community and bringing our mobile coffee experience to
-                various locations and
-                private events. Follow us to see where we'll pop up next!.</p>
+                <p class="greyText">Our passion is brewing the perfect cup and creating a moment of calm in your busy
+                    day.
+                    Whether you're an
+                    overwhelmed mom needing a comforting latte and a friendly chat, or simply looking for a delicious
+                    pick-me-up, we're here to serve you with a smile and a warm conversation.</p>
+
+                <p class="greyText">We love connecting with our community and bringing our mobile coffee experience to
+                    various locations and
+                    private events. Follow us to see where we'll pop up next!.</p>
+            </div>
         </div>
     </section>
 
@@ -164,7 +187,9 @@
 
             <h2 class="whiteText">Our Location</h2>
 
-            <a class="locationButton" href="https://maps.google.com/?q=32.13518940410557, -111.10453833405344">Get Directions</a>
+            <a id="directionsButton" class="locationButton"
+                href="https://maps.google.com/?q=32.13518940410557, -111.10453833405344" target="_blank">Get
+                Directions</a>
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4794.439006490683!2d-111.10640794822122!3d32.1381954191752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86d5d7ff341e5021%3A0xa6e8e4aeb2dc7363!2sEspresso-Self%20Tucson%20LLC!5e0!3m2!1sen!2sus!4v1753290581486!5m2!1sen!2sus"
@@ -178,12 +203,14 @@
                 or contact us to book Espresso Self Tucson for your next private event, festival, or gathering. We're
                 perfect for adding a touch of charm and delicious coffee to any occasion!</p>
 
-            <div class="menuItem">
-                <h2>Find Us</h2>
-                <p class="greyText">Corner of South Camino Verde & Valencia Rd Tucson, AZ</p>
-                <p class="greyText">Thursday-Saturday</p>
-                <p class="greyText">7:00 AM - 11:30 AM</p>
-                <p class="greyText">Your Next Favorite Espresso is Just Around the Corner!</p>
+            <div class="findUs">
+                <div>
+                    <h2>Find Us</h2>
+                    <p class="greyText">Corner of South Camino Verde & Valencia Rd Tucson, AZ</p>
+                    <p class="greyText">Thursday-Saturday</p>
+                    <p class="greyText">7:00 AM - 11:30 AM</p>
+                    <p class="greyText">Your Next Favorite Espresso is Just Around the Corner!</p>
+                </div>
             </div>
         </div>
 
@@ -193,7 +220,9 @@
         <div class="conatactContainer">
             <h2>Let’s Connect!</h2>
             <div class="flexContainer">
+
                 <form method="post" action="https://alphacodingllc.com/espressoSelf/contact">
+                    <h3>Book Us</h3>
 
                     <label class="greyText" for="name">Name</label>
                     <input type="text" name="name" placeholder="Your Name">
@@ -234,6 +263,42 @@
 
         </div>
     </section>
+
+    <script>
+
+        // handle burger menu
+        const bMenu = document.getElementById("burgerMenu")
+        const mobileNav = document.getElementById("mobileNav")
+
+        const display = () => {
+            return mobileNav.style.display
+        }
+
+        const hideMobileNav = () => [
+            mobileNav.style.display = "none"
+        ]
+
+        document.addEventListener("click", e => {
+            // hide mobile nave when clicked outside of the div
+
+            if (!bMenu.contains(e.target)
+                && display() === "flex"
+            ) {
+                hideMobileNav()
+            }
+        })
+
+        bMenu.addEventListener("click", () => {
+            mobileNav.style.display = display() === "flex" ? "none" : "flex"
+        });
+  
+        // Handle Apple maps for apple devices. 
+        if (navigator.userAgent.includes("Safari")) {
+            const button = document.getElementById("directionsButton")
+            button.setAttribute("href", "http://maps.apple.com/?ll=32.135162147238184, -111.1043452144617");
+
+        }
+    </script>
 
 </body>
 
