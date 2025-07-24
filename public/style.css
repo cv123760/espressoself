@@ -289,3 +289,7 @@ textarea {
 button{
 
 }
+
+.qualityCheck{
+    display: none;
+}
