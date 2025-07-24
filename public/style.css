@@ -264,7 +264,7 @@ textarea {
     border-radius: 0.5rem;
     border: 1px solid #E5E7EB;
     font-family: "Roboto", sans-serif;
-
+    padding: 1rem;
 }
 
 .conatactInfo {
@@ -284,10 +284,6 @@ textarea {
 
 .conatactInfo a:hover {
     text-decoration: underline;
-}
-
-button{
-
 }
 
 .qualityCheck{
