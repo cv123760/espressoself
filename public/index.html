@@ -14,12 +14,12 @@
 
 <body>
     <nav>
-        <h1 class="heroTitle">Espresso Self Tucson</h1>
+        <h1 id="navTitle">Espresso Self Tucson</h1>
         <div class="navTagsContainer">
             <a href="https://www.instagram.com/espresso_self_tucson/?hl=en" target="_blank">
                 <img src="./images/instagram-svgrepo-com.svg" alt="image missing">
             </a>
-            <a href="#heroSection">Home</a>
+            <a href="#">Home</a>
             <a href="#ourStory">Our Story</a>
             <a href="#menu">Menu</a>
             <a href="#location">Find us</a>
@@ -28,14 +28,14 @@
         <img id="burgerMenu" src="./images/burgerMenu.svg" alt="">
 
         <div id="mobileNav">
-            <a href="https://www.instagram.com/espresso_self_tucson/?hl=en" target="_blank">
-                <img src="./images/instagram-svgrepo-com.svg" alt="image missing">
-            </a>
-            <a class="mobileAnchor" href="#heroSection">Home</a>
+            <a class="mobileAnchor" href="#">Home</a>
             <a class="mobileAnchor" href="#ourStory">Our Story</a>
             <a class="mobileAnchor" href="#menu">Menu</a>
             <a class="mobileAnchor" href="#location">Find us</a>
             <a class="mobileAnchor" href="#contact">Contact</a>
+            <a href="https://www.instagram.com/espresso_self_tucson/?hl=en" target="_blank">
+                <img src="./images/instagram-svgrepo-com.svg" alt="image missing">
+            </a>
         </div>
     </nav>
 
@@ -106,57 +106,73 @@
 
             <div class="menuSection">
                 <div class="menuItem">
-                    <h3>Latte (Hot or Iced)</h3>
-                    <p class="greyText">Smooth, rich espresso with steamed or cold milk.</p>
+                    <h3>Americano</h3>
+                    <p class="greyText">Bold espresso & hot water (or iced!)</p>
                 </div>
 
                 <div class="menuItem">
-                    <h3>Americano (Hot or Iced)</h3>
-                    <p class="greyText">Bold espresso with hot water or served over ice.</p>
+                    <h3>Latte</h3>
+                    <p class="greyText">Espresso & steamed milk, classic and smooth</p>
                 </div>
 
                 <div class="menuItem">
                     <h3>Mocha</h3>
-                    <p class="greyText">Espresso and real cocoa blended for a cozy, chocolatey treat.</p>
+                    <p class="greyText">Espresso + chocolate + milk = yes, please</p>
                 </div>
 
                 <div class="menuItem">
-                    <h3>White Mocha</h3>
-                    <p class="greyText">Ceremonial Japanese Matcha</p>
+                    <h3>Cappuccino</h3>
+                    <p class="greyText">Bold espresso with a velvety milk foam</p>
+                </div>
+
+            </div>
+
+
+
+            <h2>Signature Drinks</h2>
+            <div class="menuSection">
+
+                <div class="menuItem">
+                    <h3><strong>Brown Sugar Shaken Espresso</strong></h3>
+                    <p class="greyText">Lightly sweetened & ice-shaken with oat milk</p>
                 </div>
 
                 <div class="menuItem">
-                    <h3>Chai Latte</h3>
-                    <p class="greyText">A warm blend of spiced black tea and milk — comforting, bold, and perfectly
-                        balanced.</p>
+                    <h3><strong>Caramel Latte</strong></h3>
+                    <p class="greyText">Silky espresso, caramel, and your choice of milk.</p>
                 </div>
 
                 <div class="menuItem">
-                    <h3>Loose Leaf Teas</h3>
-                    <p class="greyText">Proudly brewed with teas from Maya Tea Company (Tucson local). Rotating
-                        selections of black,
-                        green, and herbal teas.</p>
+                    <h3><strong>White Mocha & Caramel Drizzle</strong></h3>
+                    <p class="greyText">Rich white chocolate with a caramel drizzle</p>
                 </div>
 
                 <div class="menuItem">
-                    <h3>Americano (Hot or Iced)</h3>
-                    <p class="greyText">Bold espresso with hot water or served over ice.</p>
+                    <h3><strong>Irish Cream Latte</strong></h3>
+                    <p class="greyText">Smooth & subtly sweet</p>
+                </div>
+
+                <div class="menuItem">
+                    <h3><strong>Dirty Chai</strong> (sugar-free available)</h3>
+                    <p class="greyText">A spicy chai latte with an espresso kick</p>
+                </div>
+
+                <div class="menuItem">
+                    <h3><strong>Sonoran Honey Latte</strong></h3>
+                    <p class="greyText">Made with real honey, cinnamon, & vanilla</p>
+                </div>
+
+                <div class="menuItem">
+                    <h3><strong>Matcha Latte</strong> (Caffeine without the jitters)</h3>
+                    <p class="greyText">Made with ceremonial-grade Japanese matcha & your choice of milk</p>
                 </div>
             </div>
 
-            <h2>Child Friendly Drinks</h2>
+            <h2>Freshly Baked</h2>
             <div class="menuSection">
                 <div class="menuItem">
-                    <h3>Milk Options</h3>
-                    <p class="greyText">Whole milk</p>
-                    <p class="greyText">Oat milk</p>
-                    <p class="greyText">Almond Milk</p>
-                </div>
-
-                <div class="menuItem">
-                    <h3>Steamed Cocoa</h3>
-                    <p class="greyText">Made with real cocoa and your choice of milk — perfect for our little coffee
-                        lovers.</p>
+                    <h3>Raspberry Homemade
+                        Muffin</h3>
                 </div>
             </div>
 
@@ -224,20 +240,20 @@
                 <form method="post" action="https://alphacodingllc.com/espressoSelf/contact">
                     <h3>Book Us</h3>
 
-                    <label class="greyText" for="name">Name</label>
+                    <label class="greyText" for="name" required>Name</label>
                     <input type="text" name="name" placeholder="Your Name">
 
-                    <label class="greyText" for="email">Email</label>
+                    <label class="greyText" for="email" required>Email</label>
                     <input type="email" name="email" id="email" placeholder="email@domain.com">
 
-                    <label class="greyText" for="date">Preferred Date</label>
+                    <label class="greyText" for="date" required>Preferred Date</label>
                     <input type="datetime-local" name="date" id="date">
 
-                    <label class="greyText" for="event">Type of Event (Optional)</label>
+                    <label class="greyText" for="event" required>Type of Event (Optional)</label>
                     <input type="text" name="event" id="event"
                         placeholder="e.g., Private Party, Festival, Corporate Event">
 
-                    <label class="greyText" for="message">Your Message / Event Details</label>
+                    <label class="greyText" for="message" required>Your Message / Event Details</label>
                     <textarea type="text" name="message" id="message" placeholder="Type a message here"></textarea>
 
 
@@ -291,11 +307,11 @@
         bMenu.addEventListener("click", () => {
             mobileNav.style.display = display() === "flex" ? "none" : "flex"
         });
-  
+
         // Handle Apple maps for apple devices. 
         if (navigator.userAgent.includes("Safari")) {
             const button = document.getElementById("directionsButton")
-            button.setAttribute("href", "http://maps.apple.com/?ll=32.135162147238184, -111.1043452144617");
+            button.setAttribute("href", "https://maps.apple.com/place?z=20%24q%3DEspressoSelf&address=6536%E2%80%936598+W+Valencia+Rd%2C+Tucson%2C+AZ++85757%2C+United+States&coordinate=32.1334222%2C-111.1057676&name=Esoresso+Self+Tucson");
 
         }
     </script>
